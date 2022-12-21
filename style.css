@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.gridContainer {
+    display: inline-grid;
+    margin: 40px;
+    border: 5px solid black;
+    height: 600px;
+    width: 600px;
+}
+
+.square {
+    background-color: white;
+}
+
+.color {
+    background-color: gray;
+}
